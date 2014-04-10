@@ -15,3 +15,7 @@
 	background-image: url('../img/bridge.jpg');
 	background-size: 125%, 125%;
 }
+
+.cage {
+	background-image: url('../img/cage');
+}

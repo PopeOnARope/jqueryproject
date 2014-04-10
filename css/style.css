@@ -1,3 +1,11 @@
+span {
+	color: white;
+	/*background: #222;*/
+	text-align: center;
+	display: inline;
+
+}
+
 li {
 	padding: 3%;
 	font-size: 1.25em;
@@ -35,7 +43,7 @@ a {
 	border: 2px solid #eee;
 	box-shadow: 5px 5px 150px 40px black; 
 	width: 60%;
-	height: 60%;
+	height: 50%;
 	z-index: 1
 }
 .popup {
@@ -48,6 +56,7 @@ a {
 	position: absolute;
 }
 .box {
+	box-style: border-box;
 	display: inline-block;
 	/*border: solid 2px #eee;*/
 	border: 0px;
@@ -64,6 +73,7 @@ a {
 	height: 250px;
 	background-color: #111;
 	border-top: solid 2px #eee;
+	color: #eee;
 }
 
 .show {
@@ -82,4 +92,18 @@ a {
 	position: relative;
 	z-index: 2;
 
+}
+
+.blue {
+	background-color: blue;
+}
+
+button {
+	display: inline-block;
+	position: relative;
+	padding-top: -100px;
+}
+
+.car {
+	display: inline-block;
 }
