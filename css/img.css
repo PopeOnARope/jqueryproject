@@ -1,0 +1,17 @@
+.mansion {
+	background-image: url('../img/wentworthmansion1.jpg');
+	background-size: 150%, 150%
+}
+.battery {
+	background-image: url('../img/battery.jpg');
+	background-size: 150%, 150%;
+
+}
+.rainbow {
+	background-image: url('../img/rainbow.jpg');
+	background-size: 150%, 150%;
+}
+.bridge {
+	background-image: url('../img/bridge.jpg');
+	background-size: 125%, 125%;
+}

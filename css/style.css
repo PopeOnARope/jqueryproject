@@ -1,0 +1,85 @@
+li {
+	padding: 3%;
+	font-size: 1.25em;
+	text-shadow: 2px 2px 2px black;
+}
+
+.box {
+	font-family: "Lucinda Grand";
+}
+
+h1 {
+	padding-left: 2%;
+	font-family: Helvetica;
+	font-weight: 100;
+	text-shadow: 2px 2px 2px black;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+.container1 {
+
+	width: 100%;
+	height: 900px;
+	background-image: url('../img/charleston.jpg');
+	background-height: 1200px;
+	border: 1px solid red;
+	z-index: 1;
+}
+
+.container2 {
+	margin: 15%;
+	background-color: black;
+	border: 2px solid #eee;
+	box-shadow: 5px 5px 150px 40px black; 
+	width: 60%;
+	height: 60%;
+	z-index: 1
+}
+.popup {
+	width: 100%;
+	height: 900px;
+	background-color: #111;
+	padding: 25%;
+	color: white;
+	z-index: 2;
+	position: absolute;
+}
+.box {
+	display: inline-block;
+	/*border: solid 2px #eee;*/
+	border: 0px;
+	padding: 0;
+	color: #eee;
+	width: 50%;
+	height: 50%;
+	margin: -1px -1px -1px -1px;
+	background-color: blue;
+}
+
+.footer {
+	width: 100%;
+	height: 250px;
+	background-color: #111;
+	border-top: solid 2px #eee;
+}
+
+.show {
+	display: inline-block;
+}
+
+.popup2 {
+	padding: 3%;
+	color: white;
+	margin: -65% 15% 15% 15%;
+	background-color: black;
+	border: 2px solid #eee;
+	box-shadow: 5px 5px 150px 40px black; 
+	width: 60%;
+	height: 60%;
+	position: relative;
+	z-index: 2;
+
+}
